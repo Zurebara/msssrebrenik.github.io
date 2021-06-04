@@ -79,11 +79,6 @@
  button:focus {
      outline: none;
 }
- ul, li, ol {
-     margin: 0px;
-     padding: 0px;
-     list-style: none;
-}
  p {
      margin: 0px;
      font-weight: 300;
@@ -1178,7 +1173,12 @@ margin-right: 10px;
      color: #000;
      padding: 40px 0px;
 }
-
+.onama .onama-box li {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000;
+    padding: 0px 0px;
+}
  .onama .onama-box a {
 font-size: 16px;
 border: 1px;
@@ -1369,7 +1369,10 @@ margin-top: 20px;
 .uposlenici .uposlenici_box figure {margin: 0px;}
 .uposlenici .uposlenici_box figure img {width: 100%;}
 /** kraj**/
-
+.odsjek {background: #fff; padding-top: 125px;}
+.odsjek .titlepage {text-align: left;}
+.odsjek .uposlenici_box figure {margin: 0px;}
+.odsjek .uposlenici_box figure img {width: 100%;}
 /** raspored **/
 .raspored {background: #2582aa; margin-top: 90px; padding: 50px 0px;}
 .raspored.titlepage {text-align: left; padding-bottom: 30px;}
@@ -1386,7 +1389,7 @@ color: #2582aa;
 padding: 9px 0px;
 max-width: 171px;
 width: 100%;
-display: inline-block;
+display: block;
 text-align:center;
 text-transform: uppercase;
 border-radius: 30px;
@@ -1397,10 +1400,25 @@ margin-top: 20px;
      border: #911b1f solid 1px;
      color: #fff;
 }
-
 .raspored_img {
 margin-top: -125px; }
 
+.raspored_img2 {
+    margin-top: -50px; }
+
+.raspored_img3 {
+        margin-top: -50px;
+        padding-bottom: 20px;
+}
+.ucionica {
+    padding-top:20px;
+}
+
+.bara {background:#2582aa; 
+padding-top:150px;
+}
+.bara2 {background:#2582aa;
+padding-bottom: 50px;}
 /** kraj časova**/
 
  .titlepage {
@@ -1652,6 +1670,67 @@ padding-bottom: 20px;
 .onama-box h2 {
     margin-top:3rem;
 }
+
+
+/** o nama **/
+
+.onama {
+    background-color: #fff;
+    padding-top: 90px;
+    
+}
+.onama .onama-kutija {
+   text-align: left;
+   
+}
+.onama .onama-kutija h2 {
+    padding: 0;
+    font-weight: bold;
+    color: #911b1f;
+    line-height: 50px;
+    font-size: 50px;
+
+}
+.onama .onama-kutija p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000;
+    padding: 40px 0px;
+}
+.onama .onama-kutija li {
+   font-size: 17px;
+   line-height: 28px;
+   color: #000;
+   padding: 0px 0px;
+}
+.onama .onama-kutija a {
+font-size: 16px;
+border: 1px;
+background-color: #911b1f;
+color: #fff;
+padding: 9px 0px;
+max-width: 171px;
+width: 100%;
+display: inline-block;
+text-align: center;
+text-transform: uppercase;
+border-radius: 30px;
+}
+
+
+.onama .onama-kutija a:hover{ 
+    background-color: #2582aa;
+    border: #2582aa solid 1px;
+   color: #fff;
+}
+.onama .onama-kutija figure {
+    margin: 0;
+}
+.onama .onama-kutija figure img {
+   width: 100%;
+   padding-top: 120px;
+}
+/** kraj o nama**/
 
 /** kraj footera **/
 /*--------------------------------------------------------------------- allah imanet ---------------------------------------------------------------------*/
