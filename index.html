@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>Mss-Srebrenik</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">  
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+</head>
+<!-- body -->
+
+<body class="main-layout">
+  <!-- loading animacija  -->
+  <div class="loader_bg">
+    <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+  </div>
+
+  <!-- header -->
+  <header>
+    <!-- header unutrašnji -->
+    <div class="header-top">
+      <div class="header">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xl-2 col-lg-4 col-md-4 col-sm-3 col logo_section"> <!-- ovo col je zbog bootstrapa-->
+              <div class="full">
+                <div class="center-desk">
+                  <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="#" /></a> <!-- klik nas logo vraća na početnu-->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-10 col-lg-8 col-md-8 col-sm-9">
+              <div class="header_information">
+               <div class="menu-area">
+                <div class="limit-box">
+                  <nav class="main-menu ">
+                    <ul class="menu-area-main">
+                      <li class="active"> <a href="index.html">Početna</a> </li> <!-- menu i aktivna stranica-->
+                      <li> <a href="#onama">O nama</a> </li>
+                      <li> <a href="#raspored">Raspored časova</a> </li>
+                      <li> <a href="#uposlenici">Uposlenici</a> </li>
+                      <li> <a href="#odsjeci">Odsjeci</a> </li>
+                      <li> <a href="#kontakt">Kontakt</a> </li>
+                     </ul>
+                   </nav>
+                 </div>
+               </div>            
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <!-- kraj unutrašnjeg headera -->
+
+     <!-- kraj headera -->
+     <section class="slider_section">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+                      <h1>Postani edukovana osoba</h1>
+                      <p>VRHUNSKA PREDAVANJA PROFESIONALNOG OSOBLJA.</p>
+                      <a href="#onama">Pročitaj više</a> <a href="#">Poselami Salena</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img2.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption">
+
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+                      <h1>Ovdje nas možete kontaktirati</h1>
+                      <p>ZA SVE INFORMACIJE O ŠKOLI.</p>
+                      <a href="#kontakt">Kontakt</a><a href="#kontakt">Poselami Salena</a>
+                    </div>
+                  </div>
+
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img4.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="carousel-item">
+
+            <div class="container-fluid padding_dd">
+              <div class="carousel-caption ">
+                <div class="row">
+                  <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+                    <div class="text-bg">
+                      <h1>Pogledajte raspored časova</h1>
+                      <p>NAJTEŽI DAN JE SRIJEDA.</p>
+                      <a href="#raspored">Raspored časova</a> <a href="#kontakt">Poselami Salena</a>
+                    </div>
+                  </div>
+                  <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12">
+                    <div class="images_box">
+                      <figure><img src="images/img3.png"></figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+</div>
+</header>
+
+
+
+<!-- o nama  -->
+<div id="onama" class="onama">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="onama-box">
+          <h2>O Našoj <strong class="yellow">Školi</strong></h2>
+          <p> Školski centar za usmjereno obrazovanje osnovan je Odlukom Skupštine opštine Srebrenik br. 01-218/17 od 18. augusta 1977.godine, kao ustanova za srednje usmjereno obrazovanje i vaspitanje općinskog područja. Centar je dobio naziv po poginulom revolucionaru Džemalu Bjediću. Sjedište centra bilo je u ul. Maršala Tita br.19. Prva godina rada novoosnovanog centra je 1977./78.šk.godina.   </p>
+          <a href="Javascript:void(0)">Pročitajte više</a>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="about-box">
+          <figure><img src="images/about.png" alt="#" /></figure>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- kraj o nama-->
+
+
+
+<!-- činjenice -->
+<div id="important" class="important">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Neke <strong class="yellow">Bitne činjenice</strong></h2>
+          <span>Danas Mješovita srednja škola spada u red većih škola na području TK-a sa 1200 učenika i sa oko 100 zaposlenika.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="important_bg">
+    <div class="container">
+      <div class="row">
+
+        <div class="col col-xs-12">
+          <div class="important_box">
+            <h3>1100+</h3>
+            <span>Učenika</span>
+          </div>
+        </div>
+        <div class="col col-xs-12">
+          <div class="important_box">
+            <h3>100+</h3>
+            <span>Uposlenika</span>
+          </div>
+        </div>
+        <div class="col col-xs-12">
+          <div class="important_box">
+            <h3>10+</h3>
+            <span>Odsjeka</span>
+          </div>
+        </div>
+        <div class="col col-xs-12">
+          <div class="important_box">
+            <h3>200+</h3>
+            <span>Odlikaša</span>
+          </div>
+        </div>
+        <div class="col col-xs-12">
+          <div class="important_box">
+            <h3>1</h3>
+            <span>Bara</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- kraj činjenica -->
+<!-- Odsjeci -->
+<div id="odsjeci" class="odsjeci">
+  <div class="container-fluid padding_left3">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="box_bg">
+          <div class="box_bg_img">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my1.png"></figure>
+                  <div class="overlay">
+                    <h3>Tehničke Škole</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my2.png"></figure>
+                  <div class="overlay">
+                    <h3>Gimnazija</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my3.png"></figure>
+                  <div class="overlay">
+                    <h3>Stručne Škole</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="box_my">
+                  <figure><img src="images/my4.png"></figure>
+                  <div class="overlay">
+                    <h3>Vannastavne Aktivnosti</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content o</p>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
+        <div class="box_text">
+          <div class="titlepage">
+            <h2>Svi <strong class="yellow"> Odsjeci</strong></h2>
+          </div>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+          <a href="Javascript:void(0)">Read more</a>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+<!-- end Courses -->
+
+<!-- uposlenici -->
+
+
+<div id="uposlenici" class="uposlenici">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage">
+          <h2>Brojni <strong class="yellow">Naši Uposlenici</strong></h2>
+          <span>packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="uposlenici_box">
+          <figure><img src="images/img.png" alt="img"/></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- raspored --> 
+<div id="raspored" class="raspored">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage title-left">
+          <h2>Raspored <strong class="white_colo">Časova</strong></h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+        <div class="raspored_text">
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+          </p>
+          <a href="Javascript:void(0)">Pogledajte</a>
+        </div>
+      </div>
+      <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12">
+        <div class="raspored_img">
+          <figure><img src="images/make_img.png"></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- kraj časova --> 
+
+
+<!-- kontakt -->
+<div id="kontakt" class="kontakt">
+  <div class="container-fluid padding_left2">
+    <div class="white_color">
+      <div class="row">
+
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13490.074071243367!2d18.489792611285335!3d44.70044978173893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe2f582dc5f720c63!2sJU%20Mje%C5%A1ovita%20srednja%20%C5%A1kola%20Srebrenik!5e0!3m2!1sen!2sba!4v1622811256692!5m2!1sen!2sba" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+
+          <form class="kontakt_bg">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="titlepage">
+                  <h2>Kontaktirajte <strong class="yellow">nas</strong></h2>
+                </div>
+                <div class="col-md-12">
+                  <input class="kontaktirajtenas" placeholder="Vaše ime" type="text" name="Vaše ime">
+                </div>
+                <div class="col-md-12">
+                  <input class="kontaktirajtenas" placeholder="Vaš Email" type="text" name="Vaš Email">
+                </div>
+                <div class="col-md-12">
+                  <input class="kontaktirajtenas" placeholder="Vaš Telefon" type="text" name="Vaš Telefon">
+                </div>
+                <div class="col-md-12">
+                  <textarea class="textarea" placeholder="Poruka/Pitanje" type="text" name="Poruka/Pitanje"></textarea>
+                </div>
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                  <button class="send">Pošalji</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- kraj kontakatakata -->
+
+    <!--  footer -->
+    <footr>
+      <div class="footer ">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
+              <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
+                  <div class="address">
+                    <h3>Kontakt</h3>
+                    <ul class="loca">
+                      <li>
+                        <a href="#"><img src="icon/loc.png" alt="#" /></a>Radnička 19, Srebrenik 75350
+                        <br>Bosna i Hercegovina </li>
+                        <li>
+                          <a href="#"><img src="icon/email.png" alt="#" /></a>jumss@bih.net.ba</li>
+                          <li>
+                            <a href="#"><img src="icon/call.png" alt="#" /></a>centrala: 035 / 645 – 679 </li>
+                          </ul>
+                          <ul class="social_link">
+                            <li><a href="https://www.facebook.com/jumsssrebrenik" target="_blank"><img src="icon/fb.png"></a></li>
+                          </ul>
+
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="address">
+                          <h3>Odsjeci</h3>
+                          <ul class="skole_footer">
+                            <li><a> Gimnazija</a> </li>
+                            <li><a>Elektrotehnička škola</a> </li>
+                            <li><a>Mašinska Škola</a> </li>
+                            <li><a>Frizerska Škola</a> </li>
+                            <li><a>Ekonomska Škola</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="address">
+                          <h3>Vannastavne aktivnosti</h3>
+                          <ul class="vannastavne_footer">
+                            <li> <a>Fotografska Sekcija </a></li>
+                            <li><a >Recitatorska Sekcija</a> </li>
+                            <li><a >Dramska Sekcija</a> </li>
+                            <li><a >Sportske Sekcije</a> </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-6 col-sm-6 ">
+                        <div class="address">
+                          <a href="index.html"> <img src="images/logo1.png" alt="logo"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="copyright">
+                <div class="container">
+                  <p>Copyright © 2021 Design by <a href="https://instagram.com/ayzed23/">Big Bara Designs</a></p>
+                </div>
+              </div>
+            </div>
+          </footr>
+          <!-- kraj footera -->
+          <!-- Javascript files-->
+          <script src="js/jquery.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.bundle.min.js"></script>
+          <script src="js/jquery-3.0.0.min.js"></script>
+          <script src="js/plugin.js"></script>
+          <!-- sidebar -->
+          <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+          <script src="js/custom.js"></script>
+          <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+</body>
+
+</html>
