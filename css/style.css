@@ -1413,7 +1413,7 @@ margin-top: 20px;
      border: #911b1f solid 1px;
      color: #fff;
 }
-@media screen (min-width:100px)    
+@media screen (min-width:1000px)    
 {
     .raspored_img {
 margin-top: -125px; }
